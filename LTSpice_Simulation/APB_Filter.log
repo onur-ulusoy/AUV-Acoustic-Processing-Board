@@ -1,0 +1,243 @@
+Circuit: * C:\Users\onuru\OneDrive\Desktop\APB_Filter\APB_Filter.asc
+
+Instance "m:u16:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u16:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u16:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u16:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u16:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u16:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u15:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u14:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u13:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u12:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u10:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u9:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.0106705
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 0.0102445
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 0.0101549
+vernier = 0.00694444
+vernier = 0.00925925
+Gmin = 0.00998745
+vernier = 0.0123457
+Gmin = 0.0097217
+vernier = 0.0164609
+vernier = 0.0219478
+Gmin = 0.00930194
+vernier = 0.0292638
+vernier = 0.0390184
+Gmin = 0.00867429
+vernier = 0.0520245
+Gmin = 0.0077463
+vernier = 0.0693659
+vernier = 0.0924879
+Gmin = 0.0064402
+vernier = 0.123317
+vernier = 0.164423
+Gmin = 0.00481395
+vernier = 0.21923
+Gmin = 0.00301413
+vernier = 0.292307
+vernier = 0.389743
+Gmin = 0.00141601
+vernier = 0.519657
+vernier = 0.692876
+Gmin = 0.000438811
+vernier = 0.346438
+vernier = 0.173219
+vernier = 0.0866095
+Gmin = 0.00037084
+vernier = 0.0433047
+vernier = 0.0216524
+vernier = 0.0108262
+vernier = 0.00541309
+vernier = 0.00270655
+Gmin = 0.000376829
+vernier = 0.00135327
+vernier = 0.000676636
+vernier = 0.000507477
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 30.303%
+Source Step = 37.8788%
+vernier = 0.375
+Source Step = 48.8636%
+Source Step = 52.286%
+Source Step = 52.3304%
+Source Step = 52.3748%
+Source Step = 52.4192%
+Source Step = 52.4636%
+Source Step = 52.508%
+vernier = 0.00219727
+Source Step = 52.5724%
+Source Step = 52.6389%
+Source Step = 52.7055%
+Source Step = 52.7721%
+Source Step = 52.8387%
+vernier = 0.0032959
+Source Step = 52.9319%
+Source Step = 53.0318%
+Source Step = 53.1317%
+Source Step = 53.2315%
+Source Step = 53.3314%
+vernier = 0.00494385
+Source Step = 53.4662%
+Source Step = 53.6161%
+Source Step = 53.7659%
+Source Step = 53.9157%
+Source Step = 54.0655%
+vernier = 0.00741577
+Source Step = 54.2603%
+Source Step = 54.485%
+Source Step = 54.7097%
+Source Step = 54.9344%
+Source Step = 55.1591%
+vernier = 0.0111237
+Source Step = 55.44%
+Source Step = 55.7771%
+Source Step = 56.1142%
+Source Step = 56.4513%
+Source Step = 56.7884%
+vernier = 0.0166855
+Source Step = 57.1929%
+Source Step = 57.6985%
+Source Step = 58.2041%
+Source Step = 58.7097%
+Source Step = 59.2153%
+vernier = 0.0250282
+Source Step = 59.7968%
+Source Step = 60.5552%
+Source Step = 61.3137%
+Source Step = 62.0721%
+Source Step = 62.8305%
+vernier = 0.0375423
+Source Step = 63.6648%
+Source Step = 64.8024%
+Source Step = 65.9401%
+Source Step = 67.0777%
+Source Step = 68.2154%
+vernier = 0.0563135
+Source Step = 69.4099%
+Source Step = 71.1164%
+Source Step = 72.8229%
+Source Step = 74.5293%
+Source Step = 76.2358%
+Source Step = 77.9423%
+vernier = 0.0844703
+Source Step = 80.502%
+Source Step = 83.0617%
+Source Step = 85.6214%
+Source Step = 88.1811%
+Source Step = 90.7408%
+vernier = 0.126705
+Source Step = 94.4524%
+Source Step = 98.2919%
+Source stepping succeeded in finding the operating point.
+
+H e i g h t e n e d   D e f   C o n   f r o m   0 . 0 0 7 3 9 2 8   
