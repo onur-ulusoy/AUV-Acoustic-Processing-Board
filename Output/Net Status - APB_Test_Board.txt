@@ -1,0 +1,26 @@
+Net Status Report
+Filename     : D:\micro\Altium Projects\AUV Hydrophone Bandpass\APB_Test_Board\APB_Test_Board.PcbDoc
+Date         : 29.05.2022
+Time         : 17:30:13
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    AGND, Signal Layers Only, 73.2097mm
+    GND, Signal Layers Only, 127.238mm
+    NetC1_1, Signal Layers Only, 20.3269mm
+    NetC1_2, Signal Layers Only, 17.3807mm
+    NetC2_1, Signal Layers Only, 28.469mm
+    NetC2_2, Signal Layers Only, 18.6569mm
+    NetC3_1, Signal Layers Only, 29.3507mm
+    NetC4_2, Signal Layers Only, 13.2842mm
+    NetC5_2, Signal Layers Only, 11.5669mm
+    NetC6_2, Signal Layers Only, 15.1037mm
+    NetR10_2, Signal Layers Only, 10.1251mm
+    VA, Signal Layers Only, 4.9492mm
+    VADC, Signal Layers Only, 15.5092mm
+    VAMPIN, Signal Layers Only, 26.7713mm
+    VFIN, Signal Layers Only, 87.0441mm
+    VFOUT, Signal Layers Only, 26.9838mm
+    VHYD+, Signal Layers Only, 0mm
+    Vcc, Signal Layers Only, 0mm
+count : 18
