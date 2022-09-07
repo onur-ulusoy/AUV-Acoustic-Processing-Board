@@ -39,3 +39,26 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
 <picture>   <img alt="dash" src="Media/logos/dash.png"> </picture>
 
 
+## Table of Contents
+- [Acoustic Processing Board (APB) Hardware](#acoustic-processing-board-apb-hardware)
+  - [Table of Contents](#table-of-contents)
+  - [Project Description](#project-description)
+
+## Project Description
+
+The Acoustic Processing Board (APB) is a pivotal development in the field of Autonomous Underwater Vehicles (AUVs), designed to accurately detect the positions of underwater objects. To optimize performance, APB is split into two distinct parts: an analog PCB and a digital PCB.
+
+The focus of this repository is the analog PCB, which primarily serves as a bandpass filter for frequencies between 25 and 40kHz. This PCB is designed to filter incoming signals from hydrophones before they are passed onto the digital component of the APB. The board was meticulously designed and simulated using LTspice software, featuring components from Analog Devices. The physical layout of the PCB was then accomplished using Altium Designer.
+
+In addition to the analog PCB, there is a complementary digital PCB. This board is responsible for processing the filtered signals from three hydrophones to determine the location of objects underwater. It employs Fast Fourier Transform (FFT) algorithms for signal processing, and is powered by an STM32 microcontroller.
+
+In the interest of thorough testing and performance optimization, the first iteration of the filter PCB was designed for a single hydrophone. This approach enables focused testing on the filtering capabilities, allowing for incremental improvements and fine-tuning of the board's performance before scaling to a three-hydrophone system.
+
+The APB is a testament to innovative design, offering a unique approach to signal processing for AUVs. It represents a significant contribution to our understanding and exploration of underwater environments. We encourage you to explore the repository, understand the design, and contribute to the ongoing development of this cutting-edge technology.
+
+<picture>   <img alt="filter-board" src="Media/pictures/filter-perspective-1.png"> </picture>
+
+
+
+
+
