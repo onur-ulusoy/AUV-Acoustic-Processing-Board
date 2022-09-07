@@ -43,6 +43,10 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
 - [Acoustic Processing Board (APB) Hardware](#acoustic-processing-board-apb-hardware)
   - [Table of Contents](#table-of-contents)
   - [Project Description](#project-description)
+  - [Electronics Design](#electronics-design)
+    - [Hydrophone Biasing](#hydrophone-biasing)
+    - [Pre-Amplification](#pre-amplification)
+    - [6 Pole Butterworth Bandpass Filter](#6-pole-butterworth-bandpass-filter)
 
 ## Project Description
 
@@ -60,5 +64,40 @@ The APB is a testament to innovative design, offering a unique approach to signa
 
 
 
+
+
+## Electronics Design
+
+The APB Analog's design is a combination of intricate electronic engineering concepts and high-precision layout work. For an in-depth understanding of its composition, be sure to check the [Full schematics](/LTSpice_Simulation/Full%20Schematic.pdf) and [PCB Schematic Sheets](/Schematic%20Sheets/) These documents not only delineate the arrangement and interconnectivity of the board's components, but also offer insightful details about their specific roles and functionalities. Whether you're interested in the bandpass filtering process, power distribution, or the input/output interfaces, the schematic sheets hold the key to understanding the APB Analog's operational architecture.
+
+### Hydrophone Biasing 
+
+Hydrophone biasing is the first stage in our APB design, and it's vital to the overall functionality of the system. For each of the three hydrophones, a Vhyd- and Vhyd+ and Vcc are the inputs, while Vampin is the output. Importantly, Vhyd- is grounded. This arrangement ensures the correct biasing of the hydrophones, setting the correct operating point for each device and allowing for the effective conversion of underwater acoustic signals into electrical signals.
+
+<p align="center">
+    <a>
+        <img width="340" src="Media/circuits/hydrophone-biasing.png">
+    </a>
+</p>
+
+### Pre-Amplification
+
+The pre-amplification stage is another essential component of our APB design, ensuring that the electrical signals produced by the hydrophones are amplified adequately for further processing. This stage also employs three separate units, one for each hydrophone. Vampin is used as the input, while Vfin serves as the output. The pre-amplifier is driven by a high precision op-amp, ensuring low-noise amplification and thereby enhancing the clarity and resolution of the captured signals.
+
+<p align="center">
+    <a>
+        <img width="320" src="Media/circuits/pre-amplification.png">
+    </a>
+</p>
+
+### 6 Pole Butterworth Bandpass Filter
+
+To further process the amplified signals, we employ a 6-pole Butterworth bandpass filter. This filter is replicated three times, once for each hydrophone. The selection of this specific filter topology allows for a flat frequency response in the passband, and a fast roll-off rate, making it highly suitable for our signal processing needs. Appropriate capacitor and resistor values were determined using Analog Devices' application notes. The filter takes Vfin as an input and outputs a filtered signal, Vfout. Each operational amplifier in this stage is referenced with Agnd, which is supplied by the analog power supply circuit.
+
+<p align="center">
+    <a>
+        <img width="1200" src="Media/circuits/butterworth.png">
+    </a>
+</p>
 
 
