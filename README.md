@@ -51,6 +51,7 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
     - [ADC Buffering](#adc-buffering)
   - [Simulation](#simulation)
   - [Filter Test Board](#filter-test-board)
+    - [Layer Structure](#layer-structure)
 
 ## Project Description
 
@@ -152,4 +153,25 @@ The Filter Test Board contains crucial components from our original APB analog d
 To aid in testing, we've added test points at key output locations like Vampin or Vfin as you can see in the below pcb picture, allowing for easy hook-up of measurement equipment such as oscilloscopes or signal generators. This way, we can inject signals and observe the system's response directly. We gave some voltages such as 1.65V directly to get rid of some power circuits.
 
 Furthermore, we've chosen to use industrial-grade connectors for power supply and signal output. These connectors provide robust, reliable connections, crucial for both testing and eventual deployment.
+
+The schematic diagrams for the Filter Test Board are available in the repository at [PCB Schematic Sheets](/Schematic%20Sheets/). Here, you'll find the full details of the circuits on the test board, providing a wealth of information for understanding and troubleshooting.
+
+Below is top view of the Filter Test Board:
+
+<picture>   <img alt="filter-board" src="Media/pictures/filter-topview.png"> </picture>
+
+
+### Layer Structure
+
+This test version of the APB Analog PCB utilizes a two-layer structure, which has been chosen to simplify the initial stages of testing and troubleshooting. Once the test phase is complete and the design is deemed satisfactory, a transition to a four-layer PCB will take place for the original design. The change in layers not only accommodates the increased complexity of handling signals from three hydrophones simultaneously but also provides better noise isolation and improved signal integrity. Our filter test board's layers can be seen below.
+
+<picture>   <img alt="filter-board" src="Media/pictures/PCB%20Dimensions.png"> </picture>
+
+To understand the depth of the board structure, component placement, and routing of traces, you can check out the [PCB file](/APB_Filter_Test_Board.PrjPcb). It offers a visual representation of the board, aiding in a better understanding of how the circuit's design translates into the physical realm. Keep in mind that this transition from a two-layer board to a four-layer one marks a critical milestone in the evolution of the APB project, embodying the growth from a test concept to a fully-realized, operational piece of hardware.
+
+
+
+
+
+
 
