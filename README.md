@@ -52,6 +52,8 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
   - [Simulation](#simulation)
   - [Filter Test Board](#filter-test-board)
     - [Layer Structure](#layer-structure)
+    - [Manufacturing](#manufacturing)
+  - [Digital Part](#digital-part)
 
 ## Project Description
 
@@ -171,6 +173,31 @@ To understand the depth of the board structure, component placement, and routing
 
 
 
+### Manufacturing
+
+In order to ensure that our Filter Test Board design meets the specific manufacturing specifications of our chosen PCB manufacturer, we have employed the Design Rule Check (DRC) feature in Altium Designer. You can check the detailed report of this rule verification in the output files directory. 
+
+The necessary Gerber files, which include the comprehensive manufacturing details needed to transform our electronic design into a tangible board, are compiled in the [Output](/Output%20Files/) directory.
+
+To date, we have prototyped the Filter Test Board with our manufacturing partner, JLC PCB. Using the invaluable feedback and insights acquired from each iteration, we have continuously refined and improved the design, ensuring it's prepared for rigorous testing and eventual integration into the full Acoustic Processing Board system.
+
+Below you can see some of the pictures of PCBs we manufactured:
+
+
+<picture>   <img alt="filter-board" src="Media/pictures/pcb-manufactured-2.png"> </picture>
+
+<picture>   <img alt="filter-board" src="Media/pictures/pcb-manufactured.jpg"> </picture>
+
+
+## Digital Part
+
+The Digital Part represents the second crucial stage of the Acoustic Processing Board (APB). After the Analog Part processes the signals from the hydrophones, it's the responsibility of the Digital Part to receive these analog signals, evaluate them, and ultimately pinpoint the location of the acoustic source underwater.
+
+One of the core operations conducted by the Digital Part involves Fast Fourier Transforms (FFTs). FFTs are a fundamental algorithm in signal processing and analysis, serving to convert a signal from the time domain (where each point represents amplitude at a specific time) into the frequency domain (where each point represents amplitude at a specific frequency). In the context of our APB, we use FFTs to identify the dominant frequencies present in the signals received from the hydrophones, which, when triangulated, can help determine the location of the underwater sound source.
+
+The computational demands of these FFT operations are shouldered by an STM32H743 microcontroller. This powerful microcontroller is well-equipped to handle the processing needs of our board, boasting impressive capabilities, such as handling complex FFT operations and processing data from multiple hydrophones concurrently.
+
+As of the time you're reading this, the development of the Digital Part is still underway. We are committed to achieving a robust, reliable digital signal processing system that effectively complements the analog processing capabilities of the APB. Stay tuned for updates as we continue to progress in this exciting project.
 
 
 
