@@ -47,6 +47,8 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
     - [Hydrophone Biasing](#hydrophone-biasing)
     - [Pre-Amplification](#pre-amplification)
     - [6 Pole Butterworth Bandpass Filter](#6-pole-butterworth-bandpass-filter)
+    - [Analog Power Supply](#analog-power-supply)
+    - [ADC Buffering](#adc-buffering)
 
 ## Project Description
 
@@ -100,4 +102,23 @@ To further process the amplified signals, we employ a 6-pole Butterworth bandpas
     </a>
 </p>
 
+### Analog Power Supply
+
+The analog power supply is an integral part of our design. Va is the input, and Agnd is the output. This unit provides the necessary power for all analog sections of the APB. Va and Agnd form the positive and negative poles of the op-amp in the other circuits. By generating a stable and low-noise power supply, this circuit ensures that the operational amplifiers and other analog components function optimally, minimizing signal distortion and maintaining high signal-to-noise ratios.
+
+<p align="center">
+    <a>
+        <img width="600" src="Media/circuits/analog-power-supply.png">
+    </a>
+</p>
+
+### ADC Buffering
+
+ADC buffering serves as the bridge between the analog and digital domains of our APB design. This stage, replicated three times for each hydrophone, takes the filtered signal, Vfout, as input and provides Vadc as output. The buffer, a unity gain amplifier (1x amp), plays a critical role in this system. Its purpose is to isolate the preceding stages from the ADC load. This isolation prevents any impedance mismatch that could degrade the signal quality. By using a buffer, we ensure that the signals processed by the ADC reflect as closely as possible the filtered signals from the bandpass filter stage, enabling accurate digital representation of the original acoustic signals.
+
+<p align="center">
+    <a>
+        <img width="320" src="Media/circuits/adc-buffering.png">
+    </a>
+</p>
 
