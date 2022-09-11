@@ -54,6 +54,8 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
     - [Layer Structure](#layer-structure)
     - [Manufacturing](#manufacturing)
   - [Digital Part](#digital-part)
+  - [Technologies Used](#technologies-used)
+  - [License](#license)
   - [Project Timeline](#project-timeline)
   - [Gallery](#gallery)
 
@@ -202,6 +204,33 @@ The computational demands of these FFT operations are shouldered by an STM32H743
 As of the time you're reading this, the development of the Digital Part is still underway. We are committed to achieving a robust, reliable digital signal processing system that effectively complements the analog processing capabilities of the APB. Stay tuned for updates as we continue to progress in this exciting project.
 
 
+## Technologies Used
+
+- **LTSpice:** At the outset of our design process, we used LTSpice, a high-performance SPICE simulator, for schematic capture and waveform viewer. This tool allowed us to simulate and analyze the behavior of our circuit designs, including the hydrophone biasing, pre-amplification, and filtering stages.
+
+- **Analog Devices Web Applications:** To calculate the optimal values for our 6-Pole Butterworth Bandpass Filter components, we made use of the web applications provided by Analog Devices. These tools were indispensable in ensuring the correct operation of our filters, which play a critical role in the overall performance of the APB.
+
+- **Altium Designer:** Our primary tool for crafting the complex layout of the PCBs was Altium Designer. Its powerful capabilities and intuitive interface allowed us to efficiently design, validate, and prepare the board's electronic components for manufacturing. Its extensive features facilitated the smooth handling of multi-layer board designs.
+
+- **Eagle:** As an alternative to Altium Designer, we also used Autodesk Eagle for some aspects of the design process. Eagle offered us a simpler, more streamlined interface for initial design and testing stages, before transitioning to the more robust Altium Designer for finalizing the intricate multi-layer layout.
+
+- **Fusion 360:** To manage the mechanical design and rendering of the APB, we used Autodesk Fusion 360. This powerful CAD/CAM tool not only allowed us to visualize and perfect the physical design of the board but also helped us ensure its compatibility within the AUV. The integration capabilities of Fusion 360 also facilitated seamless coordination with the mechanical team.
+
+
+
+## License
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+This repository contains the design and documentation for the AUV Acoustic Processing Board, a project by the ITU AUV Team Electonics 2022.
+
+
+**Licensor:** ITU AUV Team 2022 Electronics
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You can view the full terms of the license in the [LICENSE](./LICENSE) file in this repository.
+
+**Please note:** When using this project, you must give appropriate credit, including a link to the original GitHub repository: [https://github.com/onur-ulusoy/AUV-Acoustic-Processing-Board](https://github.com/onur-ulusoy/AUV-Acoustic-Processing-Board)
 
 ## Project Timeline
 
