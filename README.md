@@ -54,6 +54,8 @@ The Acoustic Processing Board (APB) is a specialized hardware project devoted to
     - [Layer Structure](#layer-structure)
     - [Manufacturing](#manufacturing)
   - [Digital Part](#digital-part)
+  - [Project Timeline](#project-timeline)
+  - [Gallery](#gallery)
 
 ## Project Description
 
@@ -199,6 +201,28 @@ The computational demands of these FFT operations are shouldered by an STM32H743
 
 As of the time you're reading this, the development of the Digital Part is still underway. We are committed to achieving a robust, reliable digital signal processing system that effectively complements the analog processing capabilities of the APB. Stay tuned for updates as we continue to progress in this exciting project.
 
+
+
+## Project Timeline
+
+This Acoustic Processing Board (APB) project, a significant contribution to the 2022 Electronics Team of ITU AUV (Istanbul Technical University's Autonomous Underwater Vehicle), spanned from December 2021 to August 2022. 
+
+In the initial design and simulation stages of the project, Onur Ulusoy and Sencer Yazıcı diligently worked to create an effective system for processing signals from underwater hydrophones. Their efforts involved comprehensive electronic design and meticulous simulation using LTSpice and Analog Devices' applications. 
+
+Once the design was validated through simulation, the next stage of the project involved the physical realization of the APB. The Filter Test PCB, an essential component of the project, was designed, have manufactured, and typeset by Onur Ulusoy. This crucial testing PCB was brought to life using Altium Designer, with the manufacturing process carried out by JLCPCB. 
+
+While the project was ongoing, thorough documentation was maintained by Onur Ulusoy. His efforts provided an accurate and detailed record of the project, documenting key design decisions, simulation results, and changes made during the PCB design and testing stages. 
+
+As of the current timeline, the Digital Part of the APB, which is designed to receive and analyze the processed signals, is not yet completed. However, the successful development and testing of the APB's analog parts mark significant milestones towards the final goal. 
+
+We are grateful for the invaluable guidance provided by Sencer Yazıcı throughout the development process. His expertise and mentorship played a crucial role in the success of this project. 
+
+Throughout the duration of the Acoustic Processing Board (APB) project, we utilized Trello as our primary project management tool. Trello's intuitive interface and flexible features allowed us to plan, track, and coordinate our tasks effectively. By creating distinct cards for different tasks and using lists to represent different stages of our workflow, we were able to maintain a clear overview of our progress at all times. 
+
+
+## Gallery
+
+For a visual tour of the APB Filter Test Board PCB, you can explore our [gallery](https://onur-ulusoy.github.io/AUV-Acoustic-Processing-Board/Media/gallery.html). Here you'll find detailed images showcasing the design and implementation of the board.
 
 
 
