@@ -87,7 +87,7 @@ Hydrophone biasing is the first stage in our APB design, and it's vital to the o
 
 <p align="center">
     <a>
-        <img width="340" src="Media/circuits/hydrophone-biasing.png">
+        <img width="340" src="Media/circuits/hydrophone-biasing.PNG">
     </a>
 </p>
 
@@ -97,7 +97,7 @@ The pre-amplification stage is another essential component of our APB design, en
 
 <p align="center">
     <a>
-        <img width="320" src="Media/circuits/pre-amplification.png">
+        <img width="320" src="Media/circuits/pre-amplification.PNG">
     </a>
 </p>
 
@@ -107,7 +107,7 @@ To further process the amplified signals, we employ a 6-pole Butterworth bandpas
 
 <p align="center">
     <a>
-        <img width="1200" src="Media/circuits/butterworth.png">
+        <img width="1200" src="Media/circuits/butterworth.PNG">
     </a>
 </p>
 
@@ -117,7 +117,7 @@ The analog power supply is an integral part of our design. Va is the input, and 
 
 <p align="center">
     <a>
-        <img width="600" src="Media/circuits/analog-power-supply.png">
+        <img width="600" src="Media/circuits/analog-power-supply.PNG">
     </a>
 </p>
 
@@ -127,7 +127,7 @@ ADC buffering serves as the bridge between the analog and digital domains of our
 
 <p align="center">
     <a>
-        <img width="320" src="Media/circuits/adc-buffering.png">
+        <img width="320" src="Media/circuits/adc-buffering.PNG">
     </a>
 </p>
 
@@ -144,7 +144,7 @@ The simulation results validate the performance of the filter design and provide
 
 <p align="center">
     <a>
-        <img width="1800" src="Media/circuits/bode-plot.png">
+        <img width="1800" src="Media/circuits/bode-plot.PNG">
     </a>
 </p>
 
@@ -188,9 +188,18 @@ To date, we have prototyped the Filter Test Board with our manufacturing partner
 Below you can see some of the pictures of PCBs we manufactured:
 
 
-<picture>   <img alt="filter-board" src="Media/pictures/pcb-manufactured-2.png"> </picture>
+<p align="center">
+    <a>
+        <img width="800" src="Media/pictures/pcb-manufactured-2.png">
+    </a>
+</p>
 
-<picture>   <img alt="filter-board" src="Media/pictures/pcb-manufactured.jpg"> </picture>
+<p align="center">
+    <a>
+        <img width="900" src="Media/pictures/pcb-manufactured.jpg">
+    </a>
+</p>
+
 
 
 ## Digital Part
